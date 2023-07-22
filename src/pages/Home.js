@@ -1,3 +1,9 @@
 export default function Home() {
-  return "hi";
+  return (
+    <>
+      <header>Matthew M. Provost</header>
+      <h2>About Me</h2>
+      <p>Aaaaaaahhhhh</p>
+    </>
+  );
 }
