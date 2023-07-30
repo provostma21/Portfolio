@@ -1,3 +1,5 @@
+import PortPhoto from "../assets/images/port_photo.jpg";
+
 export default function Home() {
   return (
     <>
