@@ -1,8 +1,10 @@
 import PortPhoto from "../assets/images/port_photo.jpg";
+import "../pages/Styles/Home.css";
 
 export default function Home() {
   return (
     <>
+      <img className="PortPhoto" src={PortPhoto} alt="Portfolio"></img>
       <header>Matthew M. Provost</header>
       <h2>About Me</h2>
       <p>
@@ -11,9 +13,9 @@ export default function Home() {
         lived in Connecticut for practically all of my life. My interest in
         computers sparked years ago when I saw the MMORPG World of Warcraft.
         After that I switched from console to PC gaming which then lead to me
-        modifying my first computer followed by my first PC build. After that I
+        modifying my first computer, followed by my first PC build. After that I
         became more interested in the internal functions of computers. I started
-        to spend time looking into coding and then joined a bootcamp affiliated
+        to spend time looking into coding and then joined a boot camp affiliated
         with Columbia University to become a Full-Stack software developer. I
         have much to learn but I'm also very excited about the journey I am on.
         Feel free to take a look at my work and let me know what you think.
