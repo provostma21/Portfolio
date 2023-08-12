@@ -1,3 +1,7 @@
+import projects from "../assets/projects/ProjectList";
+
 export default function Project() {
-  return;
+  const listItems = projects.map((project) => <li key={project.id}></li>);
+
+  return <ul>{listItems}</ul>;
 }
