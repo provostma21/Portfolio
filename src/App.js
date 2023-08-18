@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <Home />
         <Projects />
+        <Contact />
       </header>
     </div>
   );
