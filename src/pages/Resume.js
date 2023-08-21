@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../assets/images/grinning_wolf.jpg";
+import Resume from "../assets/images/Matt's Resume updated2.jpg";
 
 export default function Resume() {
   return (
