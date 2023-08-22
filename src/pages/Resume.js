@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/images/Matt's Resume updated2.jpg";
+import ResumeDoc from "../assets/images/Matt's Resume updated2.jpg";
 
 export default function Resume() {
   return (
@@ -23,7 +23,7 @@ export default function Resume() {
         resume below!
       </p>
       <div className="resume">
-        <a href={Resume} download>
+        <a href={ResumeDoc} download>
           Download Here!{" "}
         </a>
       </div>
