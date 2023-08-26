@@ -1,4 +1,5 @@
 import React from "react";
+import "../pages/Styles/Resume.css";
 import ResumeDoc from "../assets/images/Matt's Resume updated2.jpg";
 
 export default function Resume() {
