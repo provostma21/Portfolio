@@ -16,6 +16,7 @@ export default function Resume() {
         <li>RESTful APIs</li>
         <li>Mongoose</li>
         <li>ReactJS</li>
+        <li>MySQL</li>
       </ul>
       <p>
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
