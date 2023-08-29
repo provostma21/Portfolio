@@ -1,5 +1,6 @@
 import PortPhoto from "../assets/images/port_photo.jpg";
 import "../pages/Styles/Home.css";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
