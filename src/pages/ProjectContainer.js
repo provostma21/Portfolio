@@ -1,9 +1,11 @@
-import WalLot from "../images/WalLot.jpg";
-import Marvel from "../images/gifmemarvel.png";
-import Note from "../images/notes1.jpg";
-import Jate from "../images/Jate1.jpg";
+// import projects from "../assets/projects/ProjectList";
 
-const PROJECTS = [
+import WalLot from "../assets/images/WalLot.jpg";
+import Marvel from "../assets/images/gifmemarvel.png";
+import Note from "../assets/images/notes1.jpg";
+import Jate from "../assets/images/Jate1.jpg";
+
+const projects = [
   {
     id: 1,
     name: "WalLot",
@@ -36,4 +38,18 @@ const PROJECTS = [
   },
 ];
 
-export default PROJECTS;
+export default function Project({ projects }) {
+  return (
+    <>
+      <th>{projects}</th>
+    </>
+  );
+}
+
+// export default function Project() {
+//   const listItems = projects.map((project) => (
+//     <li key={project.id}>{project.name}</li>
+//   ));
+
+//   return <ul>{listItems}</ul>;
+// }

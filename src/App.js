@@ -1,5 +1,5 @@
 import Home from "../src/pages/Home";
-import Projects from "../src/pages/Projects";
+import Projects from "./components/Projects";
 import Contact from "../src/pages/Contact";
 
 function App() {
