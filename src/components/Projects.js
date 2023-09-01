@@ -1,3 +1,5 @@
+import { PROJECTS } from "../assets/projects/ProjectList";
+
 function Project({ projects }) {
   return (
     <>
@@ -19,7 +21,7 @@ function ProjectCard({ project }) {
   );
 }
 
-function ProjectGrid({ projects }) {
+export default function ProjectGrid({ projects }) {
   const cards = [];
   let lastProject = null;
 

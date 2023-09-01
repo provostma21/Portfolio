@@ -3,7 +3,7 @@ import Marvel from "../images/gifmemarvel.png";
 import Note from "../images/notes1.jpg";
 import Jate from "../images/Jate1.jpg";
 
-const PROJECTS = [
+export const PROJECTS = [
   {
     id: 1,
     name: "WalLot",
@@ -35,5 +35,3 @@ const PROJECTS = [
     image: Jate,
   },
 ];
-
-export default PROJECTS;

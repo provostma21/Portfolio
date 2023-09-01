@@ -1,5 +1,5 @@
 import Home from "../src/pages/Home";
-import Projects from "./components/Projects";
+import ProjectGrid from "./components/Projects";
 import Contact from "../src/pages/Contact";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Home />
-        <Projects />
+        <ProjectGrid />
         <Contact />
       </header>
     </div>
