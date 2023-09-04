@@ -1,4 +1,6 @@
-import { PROJECTS } from "../assets/projects/ProjectList";
+import ProjectForm from "./ProjectForm";
+
+import { PROJECTS } from "./ProjectList";
 
 function Project({ projects }) {
   return (
