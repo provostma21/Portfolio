@@ -2,6 +2,7 @@ import WalLot from "../images/WalLot.jpg";
 import Marvel from "../images/gifmemarvel.png";
 import Note from "../images/notes1.jpg";
 import Jate from "../images/Jate1.jpg";
+import ProjectForm from "./ProjectForm";
 
 export const PROJECTS = [
   {
