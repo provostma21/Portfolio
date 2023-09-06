@@ -1,5 +1,4 @@
 import ProjectForm from "./ProjectForm";
-
 import { PROJECTS } from "./ProjectList";
 
 function Project({ projects }) {
