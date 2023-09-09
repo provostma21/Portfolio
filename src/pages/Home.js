@@ -1,3 +1,4 @@
+import React from "react";
 import PortPhoto from "../assets/images/port_photo.jpg";
 import "../pages/Styles/Home.css";
 import Navbar from "../components/Navbar";
