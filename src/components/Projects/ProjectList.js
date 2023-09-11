@@ -5,7 +5,7 @@ import Jate from "../images/Jate1.jpg";
 import ProjectForm from "./ProjectForm";
 import Projects from "./Projects";
 
-let PROJECTS = [
+let projectData = [
   {
     id: 1,
     name: "WalLot",
@@ -38,4 +38,4 @@ let PROJECTS = [
   },
 ];
 
-export default PROJECTS;
+export default projectData;
