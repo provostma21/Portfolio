@@ -1,25 +1,41 @@
-import ProjectCard from "./ProjectCard";
-import { PROJECTS } from "../ProjectList";
+// import ProjectCard from "./ProjectCard";
+import { projectData } from "./ProjectList";
 
-function Project({ projects }) {
+// function Project({ projects }) {
+//   return (
+//     <>
+//       <th>{projects}</th>
+//     </>
+//   );
+// }
+
+// export default function ProjectGrid({ projects }) {
+//   const cards = [];
+//   let lastProject = null;
+
+//   projects.forEach((project) => {
+//     if (project.id !== lastProject) {
+//       cards.push(<Project id={project.id} key={project.id} />);
+//     }
+//     cards.push(<ProjectCard project={project} key={project.id} />);
+//     lastProject = project.id;
+//   });
+
+//   return <grid>{cards}</grid>;
+// }
+
+function Project(props) {
+  const arrayDataItems = projectData.map((projectData) => (
+    <li>{projectData.name}</li>
+  ));
   return (
-    <>
-      <th>{projects}</th>
-    </>
+    <div className="container">
+      <div>
+        <h1>Render Project List Items</h1>
+      </div>
+      <ul>{arrayDataItems}</ul>
+    </div>
   );
 }
 
-export default function ProjectGrid({ projects }) {
-  const cards = [];
-  let lastProject = null;
-
-  projects.forEach((project) => {
-    if (project.id !== lastProject) {
-      cards.push(<Project id={project.id} key={project.id} />);
-    }
-    cards.push(<ProjectCard project={project} key={project.id} />);
-    lastProject = project.id;
-  });
-
-  return <grid>{cards}</grid>;
-}
+export default Project;
