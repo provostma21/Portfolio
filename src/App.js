@@ -1,6 +1,7 @@
 import Home from "../src/pages/Home";
 import ProjectList from "./components/ProjectList";
 import Contact from "../src/pages/Contact";
+import Resume from "../src/pages/Resume";
 
 function App() {
   return (
