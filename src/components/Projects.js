@@ -1,23 +1,10 @@
-import ProjectForm from "./ProjectForm";
+import ProjectCard from "./ProjectCard";
 import { PROJECTS } from "./ProjectList";
 
 function Project({ projects }) {
   return (
     <>
       <th>{projects}</th>
-    </>
-  );
-}
-
-function ProjectCard({ project }) {
-  return (
-    <>
-      <div>
-        <div>{project.name}</div>
-        <div>{project.link}</div>
-        <div>{project.repoLink}</div>
-        <div>{project.image}</div>
-      </div>
     </>
   );
 }

@@ -5,7 +5,7 @@ import Jate from "../images/Jate1.jpg";
 import ProjectForm from "./ProjectForm";
 import Projects from "./Projects";
 
-export const PROJECTS = [
+let PROJECTS = [
   {
     id: 1,
     name: "WalLot",
@@ -37,3 +37,5 @@ export const PROJECTS = [
     image: Jate,
   },
 ];
+
+export default PROJECTS;

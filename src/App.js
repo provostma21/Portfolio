@@ -1,5 +1,5 @@
 import Home from "../src/pages/Home";
-import ProjectList from "./components/ProjectList";
+// import ProjectList from "./components/ProjectList";
 import Contact from "../src/pages/Contact";
 import Resume from "../src/pages/Resume";
 
@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Home />
-        <ProjectList />
         <Contact />
       </header>
     </div>
