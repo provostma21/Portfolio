@@ -35,16 +35,9 @@ function Project(props) {
           alt={projectData.name}
         />
       }{" "}
-      `${projectData.link} ${projectData.repoLink}`}
+      <a href={projectData.link}>DEMO</a>{" "}
+      <a href={projectData.repoLink}>REPO</a>
     </li>
-    // (<li>{projectData.name}</li>),
-    // (
-    //   <img
-    //     key={projectData.id}
-    //     src={projectData.image}
-    //     alt={projectData.name}
-    //   />
-    // )
   ));
   return (
     <div className="container">
