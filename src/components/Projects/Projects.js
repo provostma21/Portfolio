@@ -42,7 +42,7 @@ function Project(props) {
   return (
     <div className="container">
       <div>
-        <h1>Render Project List Items</h1>
+        <h1>My Work</h1>
       </div>
       <ul>{arrayDataItems}</ul>
     </div>
