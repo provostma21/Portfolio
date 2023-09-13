@@ -35,8 +35,12 @@ function Project(props) {
           alt={projectData.name}
         />
       }{" "}
-      <a href={projectData.link}>DEMO</a>{" "}
-      <a href={projectData.repoLink}>REPO</a>
+      <button>
+        <a href={projectData.link}>DEMO</a>
+      </button>{" "}
+      <button>
+        <a href={projectData.repoLink}>REPO</a>
+      </button>
     </li>
   ));
   return (
