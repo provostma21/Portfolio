@@ -2,12 +2,12 @@
 import "../Style/Projects.css";
 import { projectData } from "./ProjectList";
 
-const styles = {
-  image: {
-    height: "200px",
-    length: "200px",
-  },
-};
+// const styles = {
+//   image: {
+//     height: "200px",
+//     length: "200px",
+//   },
+// };
 // function Project({ projects }) {
 //   return (
 //     <>
@@ -37,6 +37,7 @@ function Project(props) {
       {`${projectData.name}`}{" "}
       {
         <img
+          className="image"
           key={projectData.id}
           src={projectData.image}
           alt={projectData.name}
