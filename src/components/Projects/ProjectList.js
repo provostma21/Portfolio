@@ -3,7 +3,6 @@ import Marvel from "../../assets/images/gifmemarvel.png";
 import Note from "../../assets/images/notes1.jpg";
 import Jate from "../../assets/images/Jate1.jpg";
 // import ProjectForm from "./ProjectForm";
-import Projects from "./Projects";
 
 export const projectData = [
   {
@@ -18,6 +17,7 @@ export const projectData = [
     id: 2,
     name: "Gif-Me-Marvel",
     link: "https://mshaari.github.io/gif-me-marvel/",
+    repoLink: "https://github.com/mshaari/gif-me-marvel",
     image: Marvel,
   },
 
