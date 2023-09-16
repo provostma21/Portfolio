@@ -43,10 +43,10 @@ function Project(props) {
           alt={projectData.name}
         />
       }{" "}
-      <button>
+      <button className="demo-btn">
         <a href={projectData.link}>DEMO</a>
       </button>{" "}
-      <button>
+      <button className="repo-btn">
         <a href={projectData.repoLink}>REPO</a>
       </button>
     </li>

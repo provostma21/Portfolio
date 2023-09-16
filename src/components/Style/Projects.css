@@ -2,3 +2,12 @@
     height: 200px;
     width: 300px;
 }
+
+.project-list-item {
+    display: grid;
+}
+
+.button {
+    height: 30px;
+    width: 50px;
+}
