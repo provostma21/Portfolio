@@ -14,14 +14,23 @@
     width: 50%;
 }
 
+.btn-container {
+    display: flex;
+
+}
+
 .btn {
-    display:inline;
+    margin-top: 5px;
     height: 30px;
-    width: 50px;
+    width: 150px;
     border-radius: 5px;
     padding: 5px;
 }
 
 .demo-btn {
-    
+    margin-left: auto;
+}
+
+.repo-btn {
+    margin-right: auto;
 }

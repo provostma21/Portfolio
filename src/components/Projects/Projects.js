@@ -34,7 +34,7 @@ import { projectData } from "./ProjectList";
 function Project(props) {
   const arrayDataItems = projectData.map((projectData) => (
     <li className="project-list-item" key={projectData.id}>
-      <h3 className="projectName">{`${projectData.name}`} </h3>
+      <h2 className="projectName">{`${projectData.name}`} </h2>
       {
         <img
           className="image"
@@ -43,12 +43,14 @@ function Project(props) {
           alt={projectData.name}
         />
       }{" "}
-      <button className="btn demo-btn">
-        <a href={projectData.link}>DEMO</a>
-      </button>{" "}
-      <button className="btn repo-btn">
-        <a href={projectData.repoLink}>REPO</a>
-      </button>
+      <div className="btn-container">
+        <button className="btn demo-btn">
+          <a href={projectData.link}>TAKE A PEAK!</a>
+        </button>{" "}
+        <button className="btn repo-btn">
+          <a href={projectData.repoLink}>REPOSITORY</a>
+        </button>
+      </div>
     </li>
   ));
   return (
