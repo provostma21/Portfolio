@@ -1,6 +1,13 @@
 // import ProjectCard from "./ProjectCard";
+import "../Style/Projects.css";
 import { projectData } from "./ProjectList";
 
+const styles = {
+  image: {
+    height: "200px",
+    length: "200px",
+  },
+};
 // function Project({ projects }) {
 //   return (
 //     <>
