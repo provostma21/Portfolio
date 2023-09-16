@@ -1,13 +1,27 @@
+.projectName {
+    text-align: center;
+}
+
 .image {
+    display: block;
+    margin: auto;
     height: 200px;
     width: 300px;
 }
 
 .project-list-item {
-    display: grid;
+    display: inline-block;
+    width: 50%;
 }
 
-.button {
+.btn {
+    display:inline;
     height: 30px;
     width: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.demo-btn {
+    
 }
