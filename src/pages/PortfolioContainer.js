@@ -1,6 +1,8 @@
-// import projects from "../assets/projects/ProjectList";
-
-
+import React, { useState } from "react";
+// import Navbar from "../components/Navbar";
+// import Home from "./Home";
+// import Contact from "./Contact";
+// import Resume from "./Resume";
 
 export default function Project({ projects }) {
   return (
