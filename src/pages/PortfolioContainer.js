@@ -1,21 +1,32 @@
 import React, { useState } from "react";
-// import Navbar from "../components/Navbar";
-// import Home from "./Home";
-// import Contact from "./Contact";
-// import Resume from "./Resume";
+import Navbar from "../components/Navbar";
+import Home from "./Home";
+import Projects from "../components/Projects/Projects";
+import Resume from "./Resume";
+import Contact from "./Contact";
 
-export default function Project({ projects }) {
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState("Home");
+
+  const renderPage = () => {
+    if (currentPage === "Home") {
+      return <Home />;
+    }
+    if (currentPage === "Projects") {
+      return <Projects />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
+    return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <>
-      <th>{projects}</th>
-    </>
+    <div>
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
   );
 }
-
-// export default function Project() {
-//   const listItems = projects.map((project) => (
-//     <li key={project.id}>{project.name}</li>
-//   ));
-
-//   return <ul>{listItems}</ul>;
-// }
