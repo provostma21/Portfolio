@@ -1,13 +1,11 @@
 import React from "react";
 import PortPhoto from "../assets/images/port_photo.jpg";
 import "../pages/Styles/Home.css";
-import Navbar from "../components/Navbar";
 
 export default function About() {
   return (
     <>
       <img className="PortPhoto" src={PortPhoto} alt="Portfolio"></img>
-      <header>Matthew M. Provost</header>
       <h2>About Me</h2>
       <p>
         Hello there and thank you for taking the time to visit my portfolio! My
