@@ -1,4 +1,3 @@
-// import ProjectCard from "./ProjectCard";
 import "../Style/Projects.css";
 import { projectData } from "./ProjectList";
 
