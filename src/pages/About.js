@@ -3,7 +3,7 @@ import PortPhoto from "../assets/images/port_photo.jpg";
 import "../pages/Styles/Home.css";
 import Navbar from "../components/Navbar";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <img className="PortPhoto" src={PortPhoto} alt="Portfolio"></img>
