@@ -4,7 +4,7 @@ import "../pages/Styles/About.css";
 
 export default function About() {
   return (
-    <>
+    <div className="about">
       <img className="PortPhoto" src={PortPhoto} alt="Portfolio"></img>
       <h2>About Me</h2>
       <p>
@@ -21,6 +21,6 @@ export default function About() {
         Feel free to take a look at my work and let me know what you think.
         Thank you very much for your time!
       </p>
-    </>
+    </div>
   );
 }

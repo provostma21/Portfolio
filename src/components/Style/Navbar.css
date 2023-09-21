@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.nav-item {
+.nav-item{
     list-style-type: none;
     margin: auto;
     border-right-style: double;
@@ -13,4 +13,8 @@
     padding: 5px;
     font-size: 20px;
 
+}
+
+.nav-item > a {
+    color:antiquewhite;
 }
