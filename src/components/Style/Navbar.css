@@ -2,9 +2,15 @@
     display:flex;
     margin-left: 30%;
     margin-right: 30%;
+    padding: 0;
 }
 
 .nav-item {
     list-style-type: none;
     margin: auto;
+    border-right-style: double;
+    border-left-style: double;
+    padding: 5px;
+    font-size: 20px;
+
 }

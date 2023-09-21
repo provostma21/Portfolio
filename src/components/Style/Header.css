@@ -1,6 +1,8 @@
 .header-container {
     background-color: #352343;
     color: #FFF4E9;
+    border-bottom-style: double;
+
 }
 
 body {

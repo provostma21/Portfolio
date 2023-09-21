@@ -1,6 +1,6 @@
 import React from "react";
 import PortPhoto from "../assets/images/port_photo.jpg";
-import "../pages/Styles/Home.css";
+import "../pages/Styles/About.css";
 
 export default function About() {
   return (
