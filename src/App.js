@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import Home from "../src/pages/Home";
 // // import ProjectList from "./components/ProjectList";
 // import Project from "../src/components/Projects/Projects";
