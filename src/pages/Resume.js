@@ -24,10 +24,12 @@ export default function Resume() {
         my coding skills. If you are interested, please feel free to download my
         resume below!
       </p>
-      <div className="resume">
-        <a href={ResumeDoc} download>
-          Download Here!{" "}
-        </a>
+      <div className="resumeLink">
+        <button>
+          <a href={ResumeDoc} download>
+            Download Here!{" "}
+          </a>
+        </button>
       </div>
     </div>
   );
