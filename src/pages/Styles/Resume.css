@@ -7,12 +7,17 @@
 }
 
 .resume > h2 {
-    margin-left: 30%;
+    text-align: center;
 }
 
 .resume >ul {
+    margin-top: 50px;
     display: flex;
     list-style-type: none;
+}
+
+.resume > ul > li {
+    margin:auto;
 }
 
 .resume > a {
