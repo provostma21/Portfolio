@@ -35,3 +35,8 @@
 .repo-btn {
     margin-right: auto;
 }
+
+.container > div > h1 {
+    color:antiquewhite;
+    text-align: center;
+}
