@@ -1,7 +1,12 @@
+.resume {
+    color: antiquewhite;
+}
+
 .resume > h1 {
-    color:antiquewhite;
 }
 
 .resume > h2 {
-    color: antiquewhite;
+}
+
+.resume >ul > li {
 }
