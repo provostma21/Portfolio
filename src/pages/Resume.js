@@ -4,7 +4,7 @@ import ResumeDoc from "../assets/images/Matt's Resume updated2.jpg";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="resume">
       <h1>Resume</h1>
       <h2>Skills</h2>
       <ul className="skills">
