@@ -47,6 +47,9 @@ a {
     padding: 5px;
     border-color: black;
     background-color: antiquewhite;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0px;
 }
 
 .resBtn:hover {
