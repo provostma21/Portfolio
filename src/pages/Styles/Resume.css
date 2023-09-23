@@ -38,3 +38,18 @@ a {
     color: #352343;
     
 }
+
+.resumeLink > .resBtn {
+    margin-top: 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: black;
+    background-color: antiquewhite;
+}
+
+.resBtn:hover {
+    background-color: #352343;
+
+}

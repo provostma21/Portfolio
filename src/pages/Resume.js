@@ -25,7 +25,7 @@ export default function Resume() {
         resume below!
       </p>
       <div className="resumeLink">
-        <button>
+        <button className="resBtn">
           <a href={ResumeDoc} download>
             Download Here!{" "}
           </a>
