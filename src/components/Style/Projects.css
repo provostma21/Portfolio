@@ -26,14 +26,25 @@
     width: 150px;
     border-radius: 5px;
     padding: 5px;
+    border-color: black;
+}
+
+.btn:hover {
+    background-color: #352343;
+}
+
+.btn:hover > a:hover {
+    color:antiquewhite;
 }
 
 .demo-btn {
     margin-left: auto;
+    background-color:antiquewhite;
 }
 
 .repo-btn {
     margin-right: auto;
+    background-color:antiquewhite;
 }
 
 .container > div > h1 {
