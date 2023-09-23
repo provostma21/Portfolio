@@ -53,3 +53,7 @@ a {
     background-color: #352343;
 
 }
+
+.resBtn:hover > a:hover {
+    color:antiquewhite;
+}
