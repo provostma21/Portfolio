@@ -30,11 +30,17 @@ export default function Resume() {
           <Icon icon="devicon:nodejs" />
         </li>
         <li>
+          <div>ReactJS</div>
+          <Icon icon="vscode-icons:file-type-reactjs" />
+        </li>
+        <li>
           <div>Mongoose</div>
           <Icon icon="devicon:mongoose" />
         </li>
-        <li>ReactJS</li>
-        <li>MySQL</li>
+        <li>
+          <div>MySQL</div>
+          <Icon icon="skill-icons:mysql-dark" />
+        </li>
         <li>RESTful APIs</li>
       </ul>
       <p>
