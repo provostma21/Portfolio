@@ -25,11 +25,17 @@ export default function Resume() {
           <div>ExpressJS</div>
           <Icon icon="skill-icons:expressjs-light" />
         </li>
-        <li>NodeJS</li>
-        <li>RESTful APIs</li>
-        <li>Mongoose</li>
+        <li>
+          <div>NodeJS</div>
+          <Icon icon="devicon:nodejs" />
+        </li>
+        <li>
+          <div>Mongoose</div>
+          <Icon icon="devicon:mongoose" />
+        </li>
         <li>ReactJS</li>
         <li>MySQL</li>
+        <li>RESTful APIs</li>
       </ul>
       <p>
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
