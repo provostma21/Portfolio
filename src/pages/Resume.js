@@ -11,14 +11,20 @@ export default function Resume() {
       <ul className="skills">
         <li>
           <div>HTML</div>
-          <Icon icon="logos:html-5" />
+          <Icon icon="vscode-icons:file-type-html" />
         </li>
         <li>
           <div>CSS</div>
           <Icon icon="vscode-icons:file-type-css" />
         </li>
-        <li>JavaScript</li>
-        <li>ExpressJS</li>
+        <li>
+          <div>JavaScript</div>
+          <Icon icon="logos:javascript" />
+        </li>
+        <li>
+          <div>ExpressJS</div>
+          <Icon icon="skill-icons:expressjs-light" />
+        </li>
         <li>NodeJS</li>
         <li>RESTful APIs</li>
         <li>Mongoose</li>
