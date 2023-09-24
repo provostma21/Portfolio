@@ -1,6 +1,7 @@
 import React from "react";
 import "../pages/Styles/Resume.css";
 import ResumeDoc from "../assets/images/Matt's Resume updated2.jpg";
+import { Icon } from "@iconify/react";
 
 export default function Resume() {
   return (
@@ -8,8 +9,14 @@ export default function Resume() {
       <h1>Resume</h1>
       <h2>Skills</h2>
       <ul className="skills">
-        <li>HTML</li>
-        <li>CSS</li>
+        <li>
+          <div>HTML</div>
+          <Icon icon="logos:html-5" />
+        </li>
+        <li>
+          <div>CSS</div>
+          <Icon icon="vscode-icons:file-type-css" />
+        </li>
         <li>JavaScript</li>
         <li>ExpressJS</li>
         <li>NodeJS</li>
