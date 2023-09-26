@@ -113,7 +113,19 @@ export default function Resume() {
             }}
           />
         </li>
-        <li>RESTful APIs</li>
+        <li>
+          <div>RESTful APIs</div>
+          <Icon
+            icon="eos-icons:api-outlined"
+            style={{
+              height: "75px",
+              width: "75px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          />
+        </li>
       </ul>
       <p>
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
