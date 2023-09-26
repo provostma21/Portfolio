@@ -11,35 +11,45 @@ export default function Resume() {
       <ul className="skills">
         <li>
           <div>HTML</div>
-          <Icon icon="vscode-icons:file-type-html" />
+          <Icon
+            icon="vscode-icons:file-type-html"
+            style={{
+              height: "75px",
+              width: "75px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>
           <div>CSS</div>
-          <Icon icon="vscode-icons:file-type-css" />
+          <Icon icon="vscode-icons:file-type-css" className="icon" />
         </li>
         <li>
           <div>JavaScript</div>
-          <Icon icon="logos:javascript" />
+          <Icon icon="logos:javascript" className="icon" />
         </li>
         <li>
           <div>ExpressJS</div>
-          <Icon icon="skill-icons:expressjs-light" />
+          <Icon icon="skill-icons:expressjs-light" className="icon" />
         </li>
         <li>
           <div>NodeJS</div>
-          <Icon icon="devicon:nodejs" />
+          <Icon icon="devicon:nodejs" className="icon" />
         </li>
         <li>
           <div>ReactJS</div>
-          <Icon icon="vscode-icons:file-type-reactjs" />
+          <Icon icon="vscode-icons:file-type-reactjs" className="icon" />
         </li>
         <li>
           <div>Mongoose</div>
-          <Icon icon="devicon:mongoose" />
+          <Icon icon="devicon:mongoose" className="icon" />
         </li>
         <li>
           <div>MySQL</div>
-          <Icon icon="skill-icons:mysql-dark" />
+          <Icon icon="skill-icons:mysql-dark" className="icon" />
         </li>
         <li>RESTful APIs</li>
       </ul>
