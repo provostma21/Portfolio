@@ -20,7 +20,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>
@@ -34,7 +33,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>
@@ -48,7 +46,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>
@@ -62,7 +59,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>
@@ -76,7 +72,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>
@@ -90,7 +85,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>
@@ -104,7 +98,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>
@@ -118,7 +111,6 @@ export default function Resume() {
               alignItems: "center",
               justifyContent: "center",
             }}
-            className="icon"
           />
         </li>
         <li>RESTful APIs</li>
