@@ -67,19 +67,59 @@ export default function Resume() {
         </li>
         <li>
           <div>NodeJS</div>
-          <Icon icon="devicon:nodejs" className="icon" />
+          <Icon
+            icon="devicon:nodejs"
+            style={{
+              height: "75px",
+              width: "75px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>
           <div>ReactJS</div>
-          <Icon icon="vscode-icons:file-type-reactjs" className="icon" />
+          <Icon
+            icon="vscode-icons:file-type-reactjs"
+            style={{
+              height: "75px",
+              width: "75px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>
           <div>Mongoose</div>
-          <Icon icon="devicon:mongoose" className="icon" />
+          <Icon
+            icon="devicon:mongoose"
+            style={{
+              height: "75px",
+              width: "75px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>
           <div>MySQL</div>
-          <Icon icon="skill-icons:mysql-dark" className="icon" />
+          <Icon
+            icon="skill-icons:mysql-dark"
+            style={{
+              height: "75px",
+              width: "75px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>RESTful APIs</li>
       </ul>
