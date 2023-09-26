@@ -25,15 +25,45 @@ export default function Resume() {
         </li>
         <li>
           <div>CSS</div>
-          <Icon icon="vscode-icons:file-type-css" className="icon" />
+          <Icon
+            icon="vscode-icons:file-type-css"
+            style={{
+              height: "75px",
+              width: "75px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>
           <div>JavaScript</div>
-          <Icon icon="logos:javascript" className="icon" />
+          <Icon
+            icon="logos:javascript"
+            style={{
+              height: "60px",
+              width: "60px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>
           <div>ExpressJS</div>
-          <Icon icon="skill-icons:expressjs-light" className="icon" />
+          <Icon
+            icon="skill-icons:expressjs-light"
+            style={{
+              height: "60px",
+              width: "60px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="icon"
+          />
         </li>
         <li>
           <div>NodeJS</div>
