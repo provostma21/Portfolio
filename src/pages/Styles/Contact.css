@@ -1,3 +1,8 @@
+.form-center {
+    display:flex;
+    justify-content: center;
+}
+
 .contact-form {
     display: inline-flex;
     flex-direction: column;
