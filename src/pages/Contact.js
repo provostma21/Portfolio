@@ -28,6 +28,10 @@ const Contact = () => {
   return (
     <div className="form-center">
       <form ref={form} onSubmit={sendEmail} className="contact-form">
+        <h3>
+          Have any comments or questions for me? Then, feel free to fill out the
+          contact form below!
+        </h3>
         <input type="text" name="user_name" placeholder="Name" />
         <br></br>
         <input type="email" name="user_email" placeholder="Email" />
