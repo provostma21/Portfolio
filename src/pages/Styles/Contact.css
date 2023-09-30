@@ -22,10 +22,12 @@
 .contact-form > input {
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 5px;
 }
 
 .contact-form > textarea {
     margin-left: 10%;
     margin-right: 10%;
-    height: 20%;;
+    height: 20%;
+    
 }
