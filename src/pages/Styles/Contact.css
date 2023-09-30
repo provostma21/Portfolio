@@ -16,4 +16,8 @@
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.contact-form > input {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
