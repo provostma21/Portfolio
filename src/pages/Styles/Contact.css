@@ -4,9 +4,16 @@
 }
 
 .contact-form {
+    margin-top:5%;
     display: inline-flex;
     flex-direction: column;
     width: 50%;
     height: 500px;
+}
+
+.contact-form > h3 {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
