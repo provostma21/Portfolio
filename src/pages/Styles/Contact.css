@@ -12,9 +12,13 @@
 }
 
 .contact-form > h3 {
-    background-color: antiquewhite;
+    color: antiquewhite;
     border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 20px;
+    height: 20%;
+    text-align: center;
 }
 .contact-form > input {
     margin-left: 10%;
@@ -24,4 +28,5 @@
 .contact-form > textarea {
     margin-left: 10%;
     margin-right: 10%;
+    height: 20%;;
 }
