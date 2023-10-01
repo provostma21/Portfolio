@@ -5,7 +5,6 @@ import Projects from "../components/Projects/Projects";
 import Resume from "./Resume";
 import Contact from "./Contact";
 import Header from "../components/Header";
-import "./Styles/Reset.css";
 import "./Styles/Main.css";
 
 export default function PortfolioContainer() {
