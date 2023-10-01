@@ -9,3 +9,11 @@ body > #root > div {
     height: 100vh;
 }
 
+@media only screen and (min-width: 601px) {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    max-width: 30%;
+}
+
