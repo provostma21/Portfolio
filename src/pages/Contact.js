@@ -6,6 +6,8 @@ const serviceId = process.env.REACT_APP_SERVICE_ID;
 const templateId = process.env.REACT_APP_TEMPLATE_ID;
 const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
+emailjs.init(publicKey);
+
 const Contact = () => {
   const form = useRef();
 
@@ -16,6 +18,7 @@ const Contact = () => {
       (result) => {
         console.log(result.text);
         console.log("Message Sent!");
+        e.target.reset();
       },
       (error) => {
         console.log(error.text);
