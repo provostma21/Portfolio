@@ -5,7 +5,10 @@ export default function Footer() {
     <div className="footer-container">
       <div className="footer-bar">
         <ul className="footer-list">
-          <li>GitHub</li>
+          <li>
+            GitHub
+            <Icon icon="devicon:github" />
+          </li>
           <li>Stack</li>
           <li>LinkedIn</li>
           <li>Email</li>
