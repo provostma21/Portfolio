@@ -14,7 +14,10 @@ export default function Footer() {
             Stack
             <Icon icon="devicon:stackoverflow" />
           </li>
-          <li>LinkedIn</li>
+          <li>
+            LinkedIn
+            <Icon icon="devicon:linkedin" />
+          </li>
           <li>Email</li>
         </ul>
       </div>
