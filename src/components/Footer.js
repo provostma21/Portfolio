@@ -10,7 +10,10 @@ export default function Footer() {
             GitHub
             <Icon icon="devicon:github" />
           </li>
-          <li>Stack</li>
+          <li>
+            Stack
+            <Icon icon="devicon:stackoverflow" />
+          </li>
           <li>LinkedIn</li>
           <li>Email</li>
         </ul>
