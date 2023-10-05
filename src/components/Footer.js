@@ -18,7 +18,10 @@ export default function Footer() {
             LinkedIn
             <Icon icon="devicon:linkedin" />
           </li>
-          <li>Email</li>
+          <li>
+            Email
+            <Icon icon="line-md:email-twotone" />
+          </li>
         </ul>
       </div>
     </div>
