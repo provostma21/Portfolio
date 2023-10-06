@@ -8,7 +8,16 @@ export default function Footer() {
         <ul className="footer-list">
           <li>
             GitHub
-            <Icon icon="devicon:github" />
+            <Icon
+              icon="devicon:github"
+              style={{
+                height: "40px",
+                width: "40px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            />
           </li>
           <li>
             Stack
