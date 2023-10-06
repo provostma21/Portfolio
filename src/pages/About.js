@@ -1,5 +1,5 @@
 import React from "react";
-import PortPhoto from "../assets/images/port_photo.jpg";
+import PortPhoto from "../assets/images/Matt Smaller Image  Coding Slanted Board.jpg";
 import "../pages/Styles/About.css";
 
 export default function About() {
