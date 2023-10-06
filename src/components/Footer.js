@@ -22,7 +22,17 @@ export default function Footer() {
           </li>
           <li>
             Stack
-            <Icon icon="devicon:stackoverflow" />
+            <Icon
+              icon="devicon:stackoverflow"
+              style={{
+                height: "40px",
+                width: "40px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                margin: "auto",
+              }}
+            />
           </li>
           <li>
             LinkedIn
