@@ -2,8 +2,12 @@
     background-image:linear-gradient(#352343, #201429);
 }
 
+.footer-list {
+    display: flex;
+}
+
 .footer-list > li {
     list-style-type: none;
     color:antiquewhite;
-
+    margin: auto;
 }
