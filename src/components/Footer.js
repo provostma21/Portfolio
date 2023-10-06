@@ -36,11 +36,31 @@ export default function Footer() {
           </li>
           <li>
             LinkedIn
-            <Icon icon="devicon:linkedin" />
+            <Icon
+              icon="devicon:linkedin"
+              style={{
+                height: "40px",
+                width: "40px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                margin: "auto",
+              }}
+            />
           </li>
           <li>
             Email
-            <Icon icon="line-md:email-twotone" />
+            <Icon
+              icon="line-md:email-twotone"
+              style={{
+                height: "40px",
+                width: "40px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                margin: "auto",
+              }}
+            />
           </li>
         </ul>
       </div>
