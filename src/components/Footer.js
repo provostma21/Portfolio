@@ -8,17 +8,23 @@ export default function Footer() {
         <ul className="footer-list">
           <li>
             GitHub
-            <Icon
-              icon="el:github"
-              style={{
-                height: "40px",
-                width: "40px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "auto",
-              }}
-            />
+            <a
+              href="https://github.com/provostma21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                icon="el:github"
+                style={{
+                  height: "40px",
+                  width: "40px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  margin: "auto",
+                }}
+              />
+            </a>
           </li>
           <li>
             Stack

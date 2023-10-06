@@ -25,3 +25,7 @@
     padding-right: 30px;
 
 }
+
+.footer-list > li > a {
+    color:antiquewhite;
+}
