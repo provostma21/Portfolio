@@ -1,6 +1,7 @@
 import React from "react";
 import "../pages/Styles/Resume.css";
-import ResumeDoc from "../assets/images/Matt's Resume updated2.jpg";
+import ResumeDoc from "../assets/images/Matt_Resume.pdf";
+
 import { Icon } from "@iconify/react";
 
 export default function Resume() {
@@ -135,7 +136,7 @@ export default function Resume() {
       </p>
       <div className="resumeLink">
         <button className="resBtn">
-          <a href={ResumeDoc} download>
+          <a href={ResumeDoc} download="Matt_Resume.pdf">
             Download Here!{" "}
           </a>
         </button>
