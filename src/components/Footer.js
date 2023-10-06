@@ -9,7 +9,7 @@ export default function Footer() {
           <li>
             GitHub
             <Icon
-              icon="devicon:github"
+              icon="el:github"
               style={{
                 height: "40px",
                 width: "40px",
