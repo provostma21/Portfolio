@@ -5,7 +5,10 @@
     left: 0;
     height: 8%;
     width: 100%;
-    padding: 3px;
+    border-top-style: double;
+    color: #FFF4E9;
+
+
 }
 
 .footer-list {
@@ -16,4 +19,9 @@
     list-style-type: none;
     color:antiquewhite;
     margin: auto;
+    border-left-style: double;
+    border-right-style: double;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
