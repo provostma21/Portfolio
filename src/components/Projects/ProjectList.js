@@ -2,7 +2,6 @@ import WalLot from "../../assets/images/WalLot.jpg";
 import Marvel from "../../assets/images/gifmemarvel.png";
 import Note from "../../assets/images/notes1.jpg";
 import Jate from "../../assets/images/Jate1.jpg";
-// import ProjectForm from "./ProjectForm";
 
 export const projectData = [
   {
