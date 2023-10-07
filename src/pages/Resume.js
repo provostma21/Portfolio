@@ -1,6 +1,7 @@
 import React from "react";
 import "../pages/Styles/Resume.css";
 import ResumeDoc from "../assets/images/Matt_Resume.pdf";
+import ResumeViewer from "../components/ResumeViewer";
 
 import { Icon } from "@iconify/react";
 
@@ -141,6 +142,7 @@ export default function Resume() {
           </a>
         </button>
       </div>
+      <
     </div>
   );
 }
