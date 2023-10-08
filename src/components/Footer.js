@@ -30,31 +30,43 @@ export default function Footer() {
           </li>
           <li>
             Stack
-            <Icon
-              icon="devicon:stackoverflow"
-              style={{
-                height: "40px",
-                width: "40px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "auto",
-              }}
-            />
+            <a
+              href="https://stackoverflow.com/users/22703150/provostma21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                icon="devicon:stackoverflow"
+                style={{
+                  height: "40px",
+                  width: "40px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  margin: "auto",
+                }}
+              />
+            </a>
           </li>
           <li>
             LinkedIn
-            <Icon
-              icon="devicon:linkedin"
-              style={{
-                height: "40px",
-                width: "40px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "auto",
-              }}
-            />
+            <a
+              href="https://www.linkedin.com/in/matthew-provost-a423aa295/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                icon="devicon:linkedin"
+                style={{
+                  height: "40px",
+                  width: "40px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  margin: "auto",
+                }}
+              />
+            </a>
           </li>
           <li>
             Email
