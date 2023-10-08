@@ -26,6 +26,10 @@
         margin-right: auto;
         justify-content: center;
     }
+    .nav-item {
+        border-style: none;
+
+    }
     
     
 }
