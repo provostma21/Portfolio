@@ -1,10 +1,13 @@
 import React from "react";
 import { Document, Page } from "react-pdf";
 
-const ResumeViewer = ({ ResumePDF }) => {
+const ResumeViewer = ({ pdfUrl }) => {
   return (
     <div className="resume-viewer">
-      <Document file={ResumePDF}>
+      <Document
+        file={pdfUrl}
+        onLoadError={(error) => console.error("PDF load error:", error)}
+      >
         <Page pageNumber={1} />
       </Document>
     </div>

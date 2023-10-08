@@ -1,10 +1,13 @@
 import React from "react";
 import "../pages/Styles/Resume.css";
 import ResumeDoc from "../assets/images/Matt_Resume.pdf";
+import ResumeViewer from "../components/ResumeViewer";
 
 import { Icon } from "@iconify/react";
 
 export default function Resume() {
+  const pdfUrl = "../assets/images/Matt_Resume.pdf";
+
   return (
     <div className="resume">
       <h1>Resume</h1>
@@ -141,6 +144,7 @@ export default function Resume() {
           </a>
         </button>
       </div>
+      <ResumeViewer pdfUrl={pdfUrl} />
     </div>
   );
 }
