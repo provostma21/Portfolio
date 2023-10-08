@@ -31,3 +31,7 @@
     height: 20%;    
     border-radius: 5px;
 }
+
+.send-btn:hover {
+    background-color: #352343;
+}
