@@ -29,3 +29,12 @@
 .footer-list > li > a {
     color:antiquewhite;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer-list {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+}

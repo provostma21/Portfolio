@@ -23,3 +23,19 @@
     margin-left: 30%;
     margin-right: 30%;
 }
+
+@media only screen and (max-width: 600px) {
+    .PortPhoto {
+       width: 80%;
+       height: 80%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .about > p {
+        width: 100%;
+        font-size: 16px;
+        margin-right: auto;
+        margin-left: auto;
+padding-top: 0;    }
+}
