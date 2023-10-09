@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="footer-bar">
         <ul className="footer-list">
           <li>
-            GitHub
+            <p className="iconName">GitHub</p>
             <a
               href="https://github.com/provostma21"
               target="_blank"
@@ -29,7 +29,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            Stack
+            <p className="iconName">Stack</p>
             <a
               href="https://stackoverflow.com/users/22703150/provostma21"
               target="_blank"
@@ -49,7 +49,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            LinkedIn
+            <p className="iconName">LinkedIn</p>
             <a
               href="https://www.linkedin.com/in/matthew-provost-a423aa295/"
               target="_blank"
@@ -69,7 +69,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            Email
+            <p className="iconName">Email</p>
             <a
               href={`mailto:${emailAddress}`}
               target="_blank"
