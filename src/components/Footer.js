@@ -15,17 +15,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon
-                icon="el:github"
-                style={{
-                  height: "40px",
-                  width: "40px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  margin: "auto",
-                }}
-              />
+              <Icon icon="el:github" className="footer-icon" />
             </a>
           </li>
           <li>
@@ -35,17 +25,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon
-                icon="devicon:stackoverflow"
-                style={{
-                  height: "40px",
-                  width: "40px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  margin: "auto",
-                }}
-              />
+              <Icon icon="devicon:stackoverflow" className="footer-icon" />
             </a>
           </li>
           <li>
@@ -55,17 +35,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon
-                icon="devicon:linkedin"
-                style={{
-                  height: "40px",
-                  width: "40px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  margin: "auto",
-                }}
-              />
+              <Icon icon="devicon:linkedin" className="footer-icon" />
             </a>
           </li>
           <li>
@@ -75,17 +45,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon
-                icon="line-md:email-twotone"
-                style={{
-                  height: "40px",
-                  width: "40px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  margin: "auto",
-                }}
-              />
+              <Icon icon="line-md:email-twotone" className="footer-icon" />
             </a>
           </li>
         </ul>
