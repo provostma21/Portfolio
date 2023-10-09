@@ -28,7 +28,7 @@ function Project(props) {
       <div>
         <h1>My Work</h1>
       </div>
-      <ul>{arrayDataItems}</ul>
+      <ul className="project-ul">{arrayDataItems}</ul>
     </div>
   );
 }
