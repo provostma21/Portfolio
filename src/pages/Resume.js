@@ -12,6 +12,7 @@ export default function Resume() {
         <li>
           <div>HTML</div>
           <Icon
+            className="skill-icon"
             icon="vscode-icons:file-type-html"
             style={{
               height: "75px",
@@ -25,6 +26,7 @@ export default function Resume() {
         <li>
           <div>CSS</div>
           <Icon
+            className="skill-icon"
             icon="vscode-icons:file-type-css"
             style={{
               height: "75px",
@@ -38,6 +40,7 @@ export default function Resume() {
         <li>
           <div>JavaScript</div>
           <Icon
+            className="skill-icon"
             icon="logos:javascript"
             style={{
               height: "60px",
@@ -51,6 +54,7 @@ export default function Resume() {
         <li>
           <div>ExpressJS</div>
           <Icon
+            className="skill-icon"
             icon="skill-icons:expressjs-light"
             style={{
               height: "60px",
@@ -64,6 +68,7 @@ export default function Resume() {
         <li>
           <div>NodeJS</div>
           <Icon
+            className="skill-icon"
             icon="devicon:nodejs"
             style={{
               height: "75px",
@@ -77,6 +82,7 @@ export default function Resume() {
         <li>
           <div>ReactJS</div>
           <Icon
+            className="skill-icon"
             icon="vscode-icons:file-type-reactjs"
             style={{
               height: "75px",
@@ -90,6 +96,7 @@ export default function Resume() {
         <li>
           <div>Mongoose</div>
           <Icon
+            className="skill-icon"
             icon="devicon:mongoose"
             style={{
               height: "75px",
@@ -103,6 +110,7 @@ export default function Resume() {
         <li>
           <div>MySQL</div>
           <Icon
+            className="skill-icon"
             icon="skill-icons:mysql-dark"
             style={{
               height: "75px",
@@ -116,6 +124,7 @@ export default function Resume() {
         <li>
           <div>RESTful APIs</div>
           <Icon
+            className="skill-icon"
             icon="eos-icons:api-outlined"
             style={{
               height: "75px",

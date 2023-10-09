@@ -70,3 +70,11 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .skills > li {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
