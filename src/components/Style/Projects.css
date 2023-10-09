@@ -55,3 +55,27 @@
     color:antiquewhite;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .project-list-item {
+      display: block;
+    }
+
+    .projectName {
+        display: inline;
+        width: fit-content;
+    }
+
+    .btn-container {
+        margin-right: 0;
+        width:fit-content;
+    }
+
+    .repo-btn {
+        margin-right: 0;
+    }
+
+    .demo-btn {
+        margin-left: 0;
+    }
+}

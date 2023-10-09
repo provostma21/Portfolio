@@ -24,7 +24,7 @@
     margin-right: 30%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .PortPhoto {
        width: 80%;
        height: 80%;
