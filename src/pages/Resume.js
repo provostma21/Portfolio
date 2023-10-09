@@ -10,130 +10,40 @@ export default function Resume() {
       <h2>Skills</h2>
       <ul className="skills">
         <li>
-          <div>HTML</div>
-          <Icon
-            className="skill-icon"
-            icon="vscode-icons:file-type-html"
-            style={{
-              height: "75px",
-              width: "75px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">HTML</div>
+          <Icon className="skill-icon" icon="vscode-icons:file-type-html" />
         </li>
         <li>
-          <div>CSS</div>
-          <Icon
-            className="skill-icon"
-            icon="vscode-icons:file-type-css"
-            style={{
-              height: "75px",
-              width: "75px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">CSS</div>
+          <Icon className="skill-icon" icon="vscode-icons:file-type-css" />
         </li>
         <li>
-          <div>JavaScript</div>
-          <Icon
-            className="skill-icon"
-            icon="logos:javascript"
-            style={{
-              height: "60px",
-              width: "60px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">JavaScript</div>
+          <Icon className="skill-icon" icon="logos:javascript" />
         </li>
         <li>
-          <div>ExpressJS</div>
-          <Icon
-            className="skill-icon"
-            icon="skill-icons:expressjs-light"
-            style={{
-              height: "60px",
-              width: "60px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">ExpressJS</div>
+          <Icon className="skill-icon" icon="skill-icons:expressjs-light" />
         </li>
         <li>
-          <div>NodeJS</div>
-          <Icon
-            className="skill-icon"
-            icon="devicon:nodejs"
-            style={{
-              height: "75px",
-              width: "75px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">NodeJS</div>
+          <Icon className="skill-icon" icon="devicon:nodejs" />
         </li>
         <li>
-          <div>ReactJS</div>
-          <Icon
-            className="skill-icon"
-            icon="vscode-icons:file-type-reactjs"
-            style={{
-              height: "75px",
-              width: "75px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">ReactJS</div>
+          <Icon className="skill-icon" icon="vscode-icons:file-type-reactjs" />
         </li>
         <li>
-          <div>Mongoose</div>
-          <Icon
-            className="skill-icon"
-            icon="devicon:mongoose"
-            style={{
-              height: "75px",
-              width: "75px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">Mongoose</div>
+          <Icon className="skill-icon" icon="devicon:mongoose" />
         </li>
         <li>
-          <div>MySQL</div>
-          <Icon
-            className="skill-icon"
-            icon="skill-icons:mysql-dark"
-            style={{
-              height: "75px",
-              width: "75px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">MySQL</div>
+          <Icon className="skill-icon" icon="skill-icons:mysql-dark" />
         </li>
         <li>
-          <div>RESTful APIs</div>
-          <Icon
-            className="skill-icon"
-            icon="eos-icons:api-outlined"
-            style={{
-              height: "75px",
-              width: "75px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          />
+          <div className="skill-name">RESTful APIs</div>
+          <Icon className="skill-icon" icon="eos-icons:api-outlined" />
         </li>
       </ul>
       <p>

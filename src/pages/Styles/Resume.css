@@ -20,6 +20,14 @@
     margin:auto;
 }
 
+.skill-icon {
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .resume > p {
     margin-top: 80px;
     margin-left: 30%;
@@ -72,9 +80,30 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-    .skills > li {
-        display: inline;
+    .resume {
+        height: fit-content;
+        margin-bottom: 60px;;
+    }
+
+    .skills {
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+        padding: 0%;
+        height: 50px;
+
     }
+
+    .skills > li {
+        height: 50px;
+    }
+
+    .skills > li > .skill-name {
+        display: none;
+    }
+
+    .skill-icon {
+        height: 50px;
+        width: 50px;
+        }
 }
