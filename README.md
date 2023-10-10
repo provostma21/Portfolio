@@ -14,7 +14,23 @@ There should not be anything to install except if the user is interested in down
 
 ## Usage
 
-The user can click any of the links on the navigation bar in order to change from page to page. On the Projects page, you can click 'Take a peak' to see a live demo of the project affiliated with the button, and the Repository button will take the user to the GitHub repository for the project. The Resume page contains general coding knowledge I possess as well as a download button for my Resume in PDF form. Then there is the Contact page which you can fill out in order to send a quick message to my email with any questions or concerns the user may have. Finally, there is the Footer which contains links to my GitHub, StackOverflow, LinkedIn, and Email.
+The user can click any of the links on the navigation bar in order to change from page to page.
+
+![About](src/assets//images/PorfolioSC1.JPG)
+
+On the Projects page, you can click 'Take a peak' to see a live demo of the project affiliated with the button, and the Repository button will take the user to the GitHub repository for the project.
+
+![Projects](src/assets//images/PorfolioSC2.JPG)
+
+The Resume page contains general coding knowledge I possess as well as a download button for my Resume in PDF form.
+
+![Resume](src/assets/images/PorfolioSC3.JPG)
+
+Then there is the Contact page which you can fill out in order to send a quick message to my email with any questions or concerns the user may have.
+
+![Contact](src/assets/images/PorfolioSC4.JPG)
+
+Finally, there is the Footer which contains links to my GitHub, StackOverflow, LinkedIn, and Email.
 
 ## Contribute
 
