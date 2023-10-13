@@ -1,24 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-// import Home from "../src/pages/Home";
-// // import ProjectList from "./components/ProjectList";
-// import Project from "../src/components/Projects/Projects";
-// import Contact from "../src/pages/Contact";
-// // import Resume from "../src/pages/Resume";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import PortfolioContainer from "./pages/PortfolioContainer";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <Home />
-//         <Contact />
-//         <Project />
-//       </header>
-//     </div>
-//   );
-// }
 
 const App = () => <PortfolioContainer />;
 
