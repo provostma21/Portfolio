@@ -47,7 +47,8 @@ export default function Resume() {
         </li>
       </ul>
       <ul className="more-skills-list">
-        <li></li>
+        <li>Agile Development</li>
+        <li>Model View Controller(MVC)</li>
       </ul>
       <p className="resume-p">
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
