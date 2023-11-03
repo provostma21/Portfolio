@@ -46,6 +46,9 @@ export default function Resume() {
           <Icon className="skill-icon" icon="eos-icons:api-outlined" />
         </li>
       </ul>
+      <ul className="more-skills-list">
+        <li></li>
+      </ul>
       <p className="resume-p">
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
         Columbia University and am currently engaging in self-study to improve
