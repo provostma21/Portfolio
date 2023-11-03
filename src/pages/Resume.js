@@ -51,8 +51,17 @@ export default function Resume() {
         <li>Model View Controller(MVC)</li>
       </ul>
       <span>
-        <h4>What I am currently learning:</h4>
-        <p>Python</p>
+        What I am currently learning:
+        <ul>
+          <li>Python</li>
+        </ul>
+      </span>
+      <span>
+        What I plan to start learning in the near future:
+        <ul>
+          <li>Java</li>
+          <li>C#</li>
+        </ul>
       </span>
       <p className="resume-p">
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
