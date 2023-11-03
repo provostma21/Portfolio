@@ -53,6 +53,7 @@ export default function Resume() {
       <ul className="more-skills-list">
         <li>Agile Development</li>
         <li>Model View Controller(MVC)</li>
+        <li>AJAX</li>
       </ul>
       <div className="learn-container">
         <span className="learning">
