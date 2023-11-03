@@ -50,6 +50,10 @@ export default function Resume() {
         <li>Agile Development</li>
         <li>Model View Controller(MVC)</li>
       </ul>
+      <span>
+        <h4>What I am currently learning:</h4>
+        <p>Python</p>
+      </span>
       <p className="resume-p">
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
         Columbia University and am currently engaging in self-study to improve
