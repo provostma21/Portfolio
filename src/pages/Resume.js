@@ -46,6 +46,10 @@ export default function Resume() {
           <Icon className="skill-icon" icon="eos-icons:api-outlined" />
         </li>
       </ul>
+      <h5 className="more-skills-header">
+        {" "}
+        Other skills I have been exposed to already:
+      </h5>
       <ul className="more-skills-list">
         <li>Agile Development</li>
         <li>Model View Controller(MVC)</li>
