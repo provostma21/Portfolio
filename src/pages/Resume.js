@@ -54,13 +54,13 @@ export default function Resume() {
         <li>Agile Development</li>
         <li>Model View Controller(MVC)</li>
       </ul>
-      <span>
+      <span className="learning">
         What I am currently learning:
         <ul>
           <li>Python</li>
         </ul>
       </span>
-      <span>
+      <span className="to-learn">
         What I plan to start learning in the near future:
         <ul>
           <li>Java</li>
