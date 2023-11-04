@@ -61,14 +61,33 @@ ul.more-skills-list {
 
 }
 
+.learning > ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .learning > ul > li {
+    display: inline;
     font-size: 16px;
     color: antiquewhite;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.to-learn > ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .to-learn > ul > li {
+    display: inline;
     font-size: 16px;
     color:antiquewhite;
+    list-style: none;
+    text-align:center;
+    margin: 0 10px;
 }
 
 .resume-p {
