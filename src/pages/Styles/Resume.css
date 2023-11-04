@@ -34,16 +34,25 @@
     padding-bottom: 0;
 }
 
+.more-skills-list {
+    margin: 0;
+    padding-bottom: 1%;
+    height: 30%;
+}
+
+
+
 .learn-container {
     display: flex;
     margin-left:auto;
     margin-right: auto;
     align-items: center;
     justify-content: center;
+    height: 30%;
 }
 
 .resume-p {
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
