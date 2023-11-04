@@ -32,6 +32,7 @@
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
+    color: rgb(38, 162, 245);
 }
 
 ul.more-skills-list {
@@ -54,8 +55,7 @@ ul.more-skills-list {
 }
 
 .learn-container > h5 {
-    color: #352343;
-}
+    color: rgb(38, 162, 245);}
 
 .learning {
 

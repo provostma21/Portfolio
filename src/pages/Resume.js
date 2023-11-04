@@ -59,6 +59,7 @@ export default function Resume() {
           What I am currently learning:
           <ul>
             <li>Python</li>
+            <li>Flask</li>
           </ul>
         </h5>
         <h5 className="to-learn">
