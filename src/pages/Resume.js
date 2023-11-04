@@ -46,6 +46,30 @@ export default function Resume() {
           <Icon className="skill-icon" icon="eos-icons:api-outlined" />
         </li>
       </ul>
+      <h5 className="more-skills-header">
+        Other skills I have been exposed to already:
+      </h5>
+      <ul className="more-skills-list">
+        <li>Agile Development</li>
+        <li>Model View Controller(MVC)</li>
+        <li>AJAX</li>
+      </ul>
+      <div className="learn-container">
+        <h5 className="learning">
+          What I am currently learning:
+          <ul>
+            <li>Python</li>
+            <li>Flask</li>
+          </ul>
+        </h5>
+        <h5 className="to-learn">
+          What's Next?
+          <ul>
+            <li>Java</li>
+            <li>C#</li>
+          </ul>
+        </h5>
+      </div>
       <p className="resume-p">
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
         Columbia University and am currently engaging in self-study to improve
