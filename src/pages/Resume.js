@@ -47,7 +47,6 @@ export default function Resume() {
         </li>
       </ul>
       <h5 className="more-skills-header">
-        {" "}
         Other skills I have been exposed to already:
       </h5>
       <ul className="more-skills-list">
@@ -56,19 +55,19 @@ export default function Resume() {
         <li>AJAX</li>
       </ul>
       <div className="learn-container">
-        <span className="learning">
+        <h5 className="learning">
           What I am currently learning:
           <ul>
             <li>Python</li>
           </ul>
-        </span>
-        <span className="to-learn">
-          What's Next?{" "}
+        </h5>
+        <h5 className="to-learn">
+          What's Next?
           <ul>
             <li>Java</li>
             <li>C#</li>
           </ul>
-        </span>
+        </h5>
       </div>
       <p className="resume-p">
         I have graduated from the Part-time Full-Stack Coding Boot Camp with
