@@ -63,7 +63,7 @@ export default function Resume() {
           </ul>
         </h5>
         <h5 className="to-learn">
-          What's Next?
+          What will I learn next?
           <ul>
             <li>Java</li>
             <li>C#</li>
