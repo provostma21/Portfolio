@@ -149,7 +149,10 @@ a {
         height: fit-content;
         margin-bottom: 60px;;
     }
-
+    .skills-header {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
     .skills {
         display: flex;
         flex-wrap: wrap;
@@ -159,6 +162,7 @@ a {
         padding: 0%;
         height: 50px;
         width: fit-content;
+        margin-bottom: 30px;
 
     }
 
@@ -174,7 +178,7 @@ a {
         }
 
     .more-skills-header {
-        padding-top: 30px;
+        padding-top: 50px;
     }
     .learn-container > h5 {
         display: flex;
@@ -201,7 +205,12 @@ a {
         justify-content: center;
         width:fit-content;
     }
-
+    
+    .resumeLink {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
     .resBtn {
         padding-top: 0;
         margin-top: 0;
