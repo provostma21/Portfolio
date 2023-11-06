@@ -185,7 +185,11 @@ a {
     }
 
     .learning {
-        
+        text-align: center;
+    }
+
+    .to-learn {
+        text-align: center;
     }
 
     .resume-p {
