@@ -73,7 +73,7 @@ ul.more-skills-list {
     font-size: 16px;
     color: antiquewhite;
     list-style: none;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .to-learn > ul {
@@ -88,7 +88,7 @@ ul.more-skills-list {
     color:antiquewhite;
     list-style: none;
     text-align:center;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .resume-p {
