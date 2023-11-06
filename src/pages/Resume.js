@@ -7,7 +7,7 @@ export default function Resume() {
   return (
     <div className="resume">
       <h1>Resume</h1>
-      <h2>Skills</h2>
+      <h2 className="skills-header">Skills</h2>
       <ul className="skills">
         <li>
           <div className="skill-name">HTML</div>
@@ -63,7 +63,7 @@ export default function Resume() {
           </ul>
         </h5>
         <h5 className="to-learn">
-          What's Next?
+          What will I learn next?
           <ul>
             <li>Java</li>
             <li>C#</li>

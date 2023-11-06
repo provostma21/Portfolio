@@ -31,6 +31,7 @@
 .more-skills-header {
     text-align: center;
     margin-bottom: 0;
+    padding-top: 20px;
     padding-bottom: 0;
     color: rgb(38, 162, 245);
 }
@@ -38,8 +39,8 @@
 ul.more-skills-list {
     display:block;
     text-align: center;
-    margin: 10px;
-    padding-bottom: 1%;
+    margin: 0 10px;
+    padding: 0;
 }
 
 
@@ -50,7 +51,7 @@ ul.more-skills-list {
     margin-left:auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 30%;
 }
 
@@ -61,14 +62,33 @@ ul.more-skills-list {
 
 }
 
+.learning > ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .learning > ul > li {
+    display: inline;
     font-size: 16px;
     color: antiquewhite;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.to-learn > ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .to-learn > ul > li {
+    display: inline;
     font-size: 16px;
     color:antiquewhite;
+    list-style: none;
+    text-align:center;
+    margin: 0 15px;
 }
 
 .resume-p {
@@ -129,7 +149,10 @@ a {
         height: fit-content;
         margin-bottom: 60px;;
     }
-
+    .skills-header {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
     .skills {
         display: flex;
         flex-wrap: wrap;
@@ -139,6 +162,7 @@ a {
         padding: 0%;
         height: 50px;
         width: fit-content;
+        margin-bottom: 30px;
 
     }
 
@@ -153,11 +177,42 @@ a {
         margin-right: 10px;
         }
 
+    .more-skills-header {
+        padding-top: 50px;
+    }
+    .learn-container > h5 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .learning {
+        text-align: center;
+    }
+
+    .to-learn {
+        text-align: center;
+    }
+
     .resume-p {
         margin-left: auto;
         margin-right: auto;
         padding: 5%;
+        padding-bottom: 0;
+        padding-top: 0;
         justify-content: center;
         width:fit-content;
+    }
+    
+    .resumeLink {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+    .resBtn {
+        padding-top: 0;
+        margin-top: 0;
     }
 }
