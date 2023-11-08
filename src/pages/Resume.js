@@ -76,6 +76,7 @@ export default function Resume() {
         my coding skills. If you are interested, please feel free to download my
         resume below!
       </p>
+      {/* Link to download Resume file */}
       <div className="resumeLink">
         <button className="resBtn">
           <a href={ResumeDoc} download="Matt_Resume.pdf">
