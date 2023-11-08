@@ -9,8 +9,10 @@ import Footer from "../components/Footer";
 import "./Styles/Main.css";
 
 export default function PortfolioContainer() {
+  // Sets default page to "About"
   const [currentPage, setCurrentPage] = useState("About");
 
+  // When on a page, returns corresponding page
   const renderPage = () => {
     if (currentPage === "About") {
       return <About />;
@@ -21,9 +23,11 @@ export default function PortfolioContainer() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
+
     return <Contact />;
   };
 
+  // Changes state of currentPage to the page selected from Navbar then returns the value
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
