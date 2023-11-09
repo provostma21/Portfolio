@@ -10,6 +10,7 @@ export default function Footer() {
         <ul className="footer-list">
           <li>
             <p className="iconName">GitHub</p>
+            {/* Adds link to footer icon that will open up a new tab, making it easier for the user */}
             <a
               href="https://github.com/provostma21"
               target="_blank"
@@ -40,6 +41,7 @@ export default function Footer() {
           </li>
           <li>
             <p className="iconName">Email</p>
+            {/* Opens default email in separate tab with "to:" filled out with the content of the emailAddress variable */}
             <a
               href={`mailto:${emailAddress}`}
               target="_blank"
