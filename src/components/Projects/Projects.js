@@ -2,6 +2,7 @@ import "../Style/Projects.css";
 import { projectData } from "./ProjectList";
 
 function Project(props) {
+  // Maps through object data imported from ProjectList.js and saves to constant variable arrayDataItems
   const arrayDataItems = projectData.map((projectData) => (
     <li className="project-list-item" key={projectData.id}>
       <h2 className="projectName">{`${projectData.name}`} </h2>
@@ -28,6 +29,7 @@ function Project(props) {
       <div>
         <h1>My Work</h1>
       </div>
+      {/* Renders projects saved into variable arrayDataItems in an unordered list */}
       <ul className="project-ul">{arrayDataItems}</ul>
     </div>
   );
