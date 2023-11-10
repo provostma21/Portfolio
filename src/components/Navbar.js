@@ -4,6 +4,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
   return (
     <ul className="nav navbar">
       <li className="nav-item">
+        {/* Changes state on click based on link selected from Navbar*/}
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
