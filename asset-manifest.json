@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f1cb09e7.css",
-    "main.js": "/portfolio/static/js/main.5bb09b89.js",
+    "main.css": "/portfolio/static/css/main.325de297.css",
+    "main.js": "/portfolio/static/js/main.90d7d0e3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/gifmemarvel.png": "/portfolio/static/media/gifmemarvel.c7f897e32d9e439e2e33.png",
     "static/media/Matt_Resume.pdf": "/portfolio/static/media/Matt_Resume.66fbbfd50ac2ed54d19a.pdf",
     "static/media/WalLot.jpg": "/portfolio/static/media/WalLot.cc51c8f02448dcdc140e.jpg",
     "static/media/Matt Smaller Image  Coding Slanted Board.jpg": "/portfolio/static/media/Matt Smaller Image  Coding Slanted Board.408b701fff4561ed2ce4.jpg",
     "static/media/Jate1.jpg": "/portfolio/static/media/Jate1.132fba139b6d94609d8f.jpg",
+    "static/media/JustTechNews.jpg": "/portfolio/static/media/JustTechNews.d2ec668602d52e2cea0a.jpg",
     "static/media/notes1.jpg": "/portfolio/static/media/notes1.f39dc83636a79c0d3201.jpg",
     "index.html": "/portfolio/index.html",
-    "main.f1cb09e7.css.map": "/portfolio/static/css/main.f1cb09e7.css.map",
-    "main.5bb09b89.js.map": "/portfolio/static/js/main.5bb09b89.js.map",
+    "main.325de297.css.map": "/portfolio/static/css/main.325de297.css.map",
+    "main.90d7d0e3.js.map": "/portfolio/static/js/main.90d7d0e3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1cb09e7.css",
-    "static/js/main.5bb09b89.js"
+    "static/css/main.325de297.css",
+    "static/js/main.90d7d0e3.js"
   ]
 }
