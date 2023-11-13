@@ -2,6 +2,7 @@ import WalLot from "../../assets/images/WalLot.jpg";
 import Marvel from "../../assets/images/gifmemarvel.png";
 import Note from "../../assets/images/notes1.jpg";
 import Jate from "../../assets/images/Jate1.jpg";
+import TechNews from "../../assets/images/JustTechNews.jpg";
 
 export const projectData = [
   {
@@ -29,10 +30,18 @@ export const projectData = [
   },
 
   {
-    id: 5,
+    id: 4,
     name: "Just Another Text Editor",
     link: "https://ancient-lake-74528.herokuapp.com/",
     repoLink: "https://github.com/provostma21/chal_19_Text_Editor",
     image: Jate,
+  },
+
+  {
+    id: 5,
+    name: "Just Tech News",
+    link: "https://tech-news-provostma21-02702b9da188.herokuapp.com/",
+    repoLink: "https://github.com/provostma21/python-newsfeed",
+    image: TechNews,
   },
 ];
