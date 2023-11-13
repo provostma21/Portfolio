@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.325de297.css",
+    "main.css": "/portfolio/static/css/main.c4804fc2.css",
     "main.js": "/portfolio/static/js/main.90d7d0e3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/gifmemarvel.png": "/portfolio/static/media/gifmemarvel.c7f897e32d9e439e2e33.png",
@@ -11,12 +11,12 @@
     "static/media/JustTechNews.jpg": "/portfolio/static/media/JustTechNews.d2ec668602d52e2cea0a.jpg",
     "static/media/notes1.jpg": "/portfolio/static/media/notes1.f39dc83636a79c0d3201.jpg",
     "index.html": "/portfolio/index.html",
-    "main.325de297.css.map": "/portfolio/static/css/main.325de297.css.map",
+    "main.c4804fc2.css.map": "/portfolio/static/css/main.c4804fc2.css.map",
     "main.90d7d0e3.js.map": "/portfolio/static/js/main.90d7d0e3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.325de297.css",
+    "static/css/main.c4804fc2.css",
     "static/js/main.90d7d0e3.js"
   ]
 }
