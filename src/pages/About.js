@@ -22,7 +22,7 @@ export default function About() {
         Feel free to take a look at my work and let me know what you think.
         Thank you very much for your time!
       </p>
-      <h3>Where I want To Be</h3>
+      <h3>Where I Want To Be</h3>
     </div>
   );
 }
