@@ -23,7 +23,7 @@ export default function About() {
         Thank you very much for your time!
       </p>
       <h3>Where I Want To Be</h3>
-      <p></p>
+      <p>I am looking to start my career of Software Development.</p>
     </div>
   );
 }
