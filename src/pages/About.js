@@ -23,7 +23,7 @@ export default function About() {
         Thank you very much for your time!
       </p>
       <h3>Where I Want To Be</h3>
-      <p>
+      <p className="ToBePara">
         I am looking to start my career of Software Development. The first step
         for this would be to find my first junior/intern developer position in
         order to help solidify the basics. After I get some on the job
