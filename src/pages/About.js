@@ -7,7 +7,7 @@ export default function About() {
     <div className="about">
       <img className="PortPhoto" src={PortPhoto} alt="Portfolio"></img>
       <h2>About Me</h2>
-      <h3>Where I'm At</h3>
+      <h3 className="atHeader">Where I'm At</h3>
       <p className="AtPara">
         Hello there and thank you for taking the time to visit my portfolio! My
         name is Matthew Provost. I was born in New Haven, Connecticut and have
