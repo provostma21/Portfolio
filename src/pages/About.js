@@ -22,6 +22,7 @@ export default function About() {
         Feel free to take a look at my work and let me know what you think.
         Thank you very much for your time!
       </p>
+      <img></img>
       <h3>Where I Want To Be</h3>
       <p className="ToBePara">
         I am looking to start my career of Software Development. The first step
